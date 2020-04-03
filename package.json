@@ -1,9 +1,9 @@
 {
-  "name": "my-dream-app",
+  "name": "ciclovida",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "node start.js",
+    "start": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
