@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  expression = false;
+lista = [{name:"Matias", perfil: 1}, {name:"Pepe", perfil:3}]
   constructor() { }
 
   ngOnInit(): void {

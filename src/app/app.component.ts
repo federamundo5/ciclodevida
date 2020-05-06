@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Usuario } from './clases/usuario';
 
 
 
@@ -11,11 +10,9 @@ import { Usuario } from './clases/usuario';
 export class AppComponent {
   title = 'testing';
   name: string;
-  usuario = new Usuario();
 
 
   Ingresar(){
-    console.log(this.usuario);
   }
 }
  
